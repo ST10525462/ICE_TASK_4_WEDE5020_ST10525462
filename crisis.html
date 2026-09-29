@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mind Matters Foundation | Crisis Support</title>
+    <!-- External CSS Stylesheet Reference -->
+    <link rel="stylesheet" href="_css-assets/styles.css" />
+  </head>
+
+  <body>
+    <!-- Site Header Container -->
+    <header>
+      <!-- Navigation Bar with Crisis Highlight -->
+      <!-- Reference: W3C, 2026. HTML Semantic Elements - <nav> Usage. [online] Available at: https://www.w3.org/TR/html52/sections.html#the-nav-element [Accessed 20 August 2026]. -->
+      <nav>
+        <img
+          src="_images/logo.jpeg"
+          alt="Mind Matters Foundation Logo"
+          width="30"
+        />
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="services.html">Services</a>
+        <a href="crisis.html" class="nav-crisis-btn"
+          ><strong>Crisis Contact</strong></a
+        >
+        <a href="enquiry.html">Get Involved</a>
+        <a href="contact.html">Contact Us</a>
+      </nav>
+
+      <h1>Mind Matters Foundation</h1>
+      <hr />
+      <p><em>Empowering Youth, Restoring Hope</em></p>
+    </header>
+
+    <!-- Main Content Area: Emergency Helplines & Callback Request -->
+    <main>
+      <!-- Section 1: Emergency Helplines List Card -->
+      <section class="card crisis-card">
+        <h2>Emergency Crisis Helplines</h2>
+        <p>
+          <strong>
+            If you or someone you know is in immediate danger or experiencing a
+            severe mental health crisis, please reach out to these 24/7 free
+            toll-free lines immediately:
+          </strong>
+        </p>
+        <br />
+        <ul>
+          <li>
+            <strong>SADAG Mental Health Helpline:</strong>
+            <a href="tel:0800567567">0800 567 567</a>
+          </li>
+          <li>
+            <strong>Suicide Crisis Line:</strong>
+            <a href="tel:0800567567">0800 567 567</a>
+          </li>
+          <li>
+            <strong>24hr Substance Abuse Helpline:</strong>
+            <a href="tel:0800121314">0800 121 314</a>
+          </li>
+          <li>
+            <strong>Cipla Mental Health Helpline:</strong>
+            <a href="tel:0800456789">0800 456 789</a>
+          </li>
+        </ul>
+      </section>
+
+      <!-- Section 2: Urgent Support Callback Request Form -->
+      <!-- Reference: MDN Web Docs, 2026. HTML Forms: A good basis for accessibility. [online] Available at: https://developer.mozilla.org/en-US/docs/Learn/Accessibility/HTML [Accessed 20 August 2026]. -->
+      <section class="card crisis-card">
+        <h3>Request Immediate Callback</h3>
+        <p>
+          Fill in your contact details below and a qualified counsellor from our
+          team will get in touch with you within 2 hours during operational
+          hours.
+        </p>
+        <br />
+        <form>
+          <p>
+            <label for="crisis-name">First Name or Alias:</label><br />
+            <input
+              type="text"
+              id="crisis-name"
+              name="crisis_name"
+              placeholder="May remain anonymous"
+            />
+          </p>
+
+          <p>
+            <label for="crisis-phone">Phone Number:</label><br />
+            <input type="tel" id="crisis-phone" name="crisis_phone" required />
+          </p>
+
+          <p>
+            <label for="urgency">Urgency Level:</label><br />
+            <select id="urgency" name="urgency" required>
+              <option value="">Select a reason</option>
+              <option value="high">High - I need help today</option>
+              <option value="medium">
+                Medium - Contact me within 24 hours
+              </option>
+            </select>
+          </p>
+
+          <p>
+            <button type="submit" class="btn-danger">
+              Request Confidential Contact
+            </button>
+          </p>
+        </form>
+      </section>
+    </main>
+
+    <!-- Site Footer Component -->
+    <!-- Reference: GeeksforGeeks, 2026. HTML5 Footer Element. [online] Available at: https://www.geeksforgeeks.org/html5-footer-tag/ [Accessed 20 August 2026]. -->
+    <footer>
+      <div class="footer-container">
+        <div class="footer-brand">
+          <h4>Mind Matters Foundation</h4>
+          <p>
+            Empowering Youth, Restoring Hope through accessible peer support and
+            compassionate care.
+          </p>
+        </div>
+        <div class="footer-links">
+          <h5>Quick Links</h5>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="services.html">Services &amp; Programs</a></li>
+            <li><a href="enquiry.html">Get Involved</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h5>Support & Crisis</h5>
+          <ul>
+            <li><a href="crisis.html">24/7 Emergency Helplines</a></li>
+            <li><a href="contact.html">Support Hub Locations</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Mind Matters Foundation. All Rights Reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>
